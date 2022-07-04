@@ -4,15 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing Page</title>
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- fontawsome -->
+    <title>Hungry Monster</title>
+    <!-- font awesome css -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -21,25 +14,27 @@
       referrerpolicy="no-referrer"
     />
     <!-- custom css -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <!-- Header HTML Start -->
-    <section class="hero-area">
-      <div class="row logo-menu flex-align-between">
-        <div class="site-logo">
-          <img src="./images/logo.png" alt="Logo" />
-        </div>
-        <div class="menus">
+    <!-- header area start -->
+    <header>
+      <div class="container d-flex justify-content-between align-items-center">
+        <a href="index.html" class="logo">
+          <img class="img" src="./Images/logo.png" alt="Hungry Monster" />
+        </a>
+
+        <nav>
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Recipes</a></li>
             <li><a href="#">Blog</a></li>
           </ul>
-        </div>
+        </nav>
       </div>
-    </section>
+    </header>
+    <!-- header area end -->
 
     <!-- Search Box HTML Start -->
     <section class="">
@@ -53,64 +48,75 @@
     </section>
     <!-- Search Box HTML End -->
 
-    <!-- Gellery HTML Start -->
-    <section>
-      <div class="row cards">
-        <div class="card">
-          <img src="./images/card-img-1.png" alt="Card Image" />
-          <h2>Mustard Champ</h2>
-        </div>
+    <!-- card list -->
+    <main class="main-content">
+      <div class="container">
+        <!-- all card list -->
+        <div class="card-list">
+          <!-- single card item -->
+          <div class="card">
+            <img src="images/card-img-1.png" alt="card" />
+            <h3>Mustard Champ</h3>
+          </div>
 
-        <div class="card">
-          <img src="./images/card-img-2.png" alt="Card Image" />
-          <h2>Coddled pork with cider</h2>
-        </div>
+          <!-- single card item -->
+          <div class="card">
+            <img src="images/card-img-1.png" alt="card" />
+            <h3>Mustard Champ</h3>
+          </div>
 
-        <div class="card">
-          <img src="./images/card-img-3.png" alt="Card Image" />
-          <h2>Boxty Breakfast</h2>
-        </div>
+          <!-- single card item -->
+          <div class="card">
+            <img src="images/card-img-2.png" alt="card" />
+            <h3>Mustard Champ</h3>
+          </div>
 
-        <div class="card">
-          <img src="./images/card-img-4.png" alt="Card Image" />
-          <h2>Mustard Champ</h2>
-        </div>
+          <!-- single card item -->
+          <div class="card">
+            <img src="images/card-img-3.png" alt="card" />
+            <h3>Mustard Champ</h3>
+          </div>
 
-        <div class="card">
-          <img src="./images/card-img-5.png" alt="Card Image" />
-          <h2>Japanese Katsudon</h2>
-        </div>
+          <!-- single card item -->
+          <div class="card">
+            <img src="images/card-img-4.png" alt="card" />
+            <h3>Mustard Champ</h3>
+          </div>
 
-        <div class="card">
-          <img src="./images/card-img-6.png" alt="Card Image" />
-          <h2>Japanese gohan rice</h2>
-        </div>
+          <!-- single card item -->
+          <div class="card">
+            <img src="images/card-img-5.png" alt="card" />
+            <h3>Mustard Champ</h3>
+          </div>
 
-        <div class="card">
-          <img src="./images/card-img-7.png" alt="Card Image" />
-          <h2>Tonkatsu pork</h2>
-        </div>
+          <!-- single card item -->
+          <div class="card">
+            <img src="images/card-img-6.png" alt="card" />
+            <h3>Mustard Champ</h3>
+          </div>
 
-        <div class="card">
-          <img src="./images/card-img-8.png" alt="Card Image" />
-          <h2>Egyptian Fatteh</h2>
+          <!-- single card item -->
+          <div class="card">
+            <img src="images/card-img-7.png" alt="card" />
+            <h3>Mustard Champ</h3>
+          </div>
         </div>
       </div>
-    </section>
-    <!-- Gellery HTML END -->
+    </main>
 
-    <!-- Footer Section Start -->
-    <footer>
-      <div class="row flex-align-between footer-content">
-        <h5>All Rights Reserverd By Shuvo Mallick @ 2022</h5>
-        <div class="social-media">
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-linkedin"></i>
-          <i class="fab fa-twitter"></i>
+    <!-- footer area start -->
+    <footer class="footer">
+      <div class="container d-flex justify-content-between">
+        <p class="copyright">All Rights Reserved By Antar @ 2022</p>
+
+        <div class="social-icons">
+          <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
         </div>
       </div>
     </footer>
-    <!-- Footer Section End -->
+    <!-- footer area end -->
   </body>
 </html>
