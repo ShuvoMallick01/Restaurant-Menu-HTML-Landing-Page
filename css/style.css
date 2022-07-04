@@ -173,7 +173,7 @@ nav li {
 
 /* Main CSS END */
 
-/* footer css */
+/* footer css Start*/
 .footer {
   background-color: #f06c4e;
   padding: 20px;
@@ -191,3 +191,5 @@ footer p {
 .social-icons i {
   color: white;
 }
+
+/* footer css End*/
